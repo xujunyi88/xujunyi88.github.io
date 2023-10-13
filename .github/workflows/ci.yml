@@ -19,4 +19,4 @@ jobs:
           python-version: 3.x
 
       - run: pip3 install -U -r requirements.txt
-      - run: mkdocs gh-deploy
+      - run: mkdocs gh-deploy --no-directory-urls
