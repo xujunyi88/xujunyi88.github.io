@@ -19,4 +19,4 @@ jobs:
           python-version: 3.x
 
       - run: pip3 install -U -r requirements.txt
-      - run: mkdocs gh-deploy -b gh-pages
+      # - run: mkdocs gh-deploy -b gh-pages #暂时先不做这个，因为它不像其他project的网站，此网站为用户名下网站，有点问题。手动deploy可以解决
